@@ -54,12 +54,12 @@ document.querySelector("#mute").addEventListener("click", function() {
 	if (video.muted == true){
 		console.log("Unmute")
 		video.muted = false
-		video.innerHTML = "Mute"
+		this.innerHTML = "Mute"
 	}
 	else{
 		console.log("Mute")
 		video.muted = true
-		video.innerHTML = "Unmute"
+		this.innerHTML = "Unmute"
 	}
 });
 
